@@ -12,11 +12,11 @@
   text-align: right;
 }
 
-.header-image {
+.header__image {
   width: 100%;
 }
 
-.header .more-info {
+.header__link {
   font-family: fantasy, cursive;
 }
 
@@ -39,7 +39,7 @@
   flex-grow: 1;
 }
 
-.add-input {
+.section-adding__content {
   display: flex;
 }
 
@@ -74,7 +74,7 @@
 
 /* Heading */
 .list-title,
-.new-task {
+.section-adding__label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -102,7 +102,7 @@
 }
 
 /* New Task */
-.new-task {
+.section-adding__label {
   display: block;
   margin: 0 0 20px;
 }
@@ -141,13 +141,13 @@
   width: 226px;
 }
 
-.btn .delete-img {
+.btn .btn-delete__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.btn .delete-img:hover {
+.btn .btn-delete__img:hover {
   transform: rotateZ(0);
 }
 
