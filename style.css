@@ -84,7 +84,7 @@
   text-transform: uppercase;
 }
 
-.task {
+.input.task {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
